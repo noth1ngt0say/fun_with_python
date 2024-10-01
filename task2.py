@@ -16,8 +16,8 @@
 #
 # Преобразуйте False в строку
 
-age = int(age)
-foo = int(foo)                  # Будет ошибка
+age = int("23")
+foo = int("23abc")                  # Будет ошибка
 age_to_bool = bool("123abc")
 flag = bool(1)
 str_one = bool("Privet")
