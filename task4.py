@@ -21,3 +21,6 @@ elif y > x and y > z:
     print(f'Наибольшее число {y}')
 else:
     print(f'Наибольшее число {z}')
+
+#x, y, z = int(input("Введите число x: ")), int(input("Введите число y :")), int(input("Введите число z :"))
+#print(max(x, y, z))
