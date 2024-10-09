@@ -20,6 +20,7 @@ for key in range(mass_len):
         if mass[next_key] == mass[key] and mass.count(mass[key]) == 2:
             print(f'Для числа {mass[key]} минимальное растояние в массиве по индексам: {key} и {next_key}')
         elif mass[next_key] == mass[key] and mass.count(mass[key]) > 2:
-            index_lst.append(next_key)
-print(index_lst)
-                # print(mass[key], next_key, key)
+            temp_dist = next_key - key
+            if temp_dist < dist:
+                dist = temp_dist
+            print(f'Для числа {mass[key]} минимальное растояние в массиве по индексам: {key} и {next_key}')
