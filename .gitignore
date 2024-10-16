@@ -1,4 +1,5 @@
 .idea
 .git
 *
-!task_*.py
+task14.py
+!task*.py
