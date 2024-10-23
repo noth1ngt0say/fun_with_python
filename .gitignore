@@ -2,3 +2,4 @@
 .git
 *
 !task*.py
+!numpy*
