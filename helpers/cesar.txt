@@ -1,0 +1,1 @@
+WARNING: 2024-10-22 18:36:48.900975: Error Code: 777 line: 12 File: /Users/test/Desktop/fun_with_python/helpers/io.py Message: File is busy
