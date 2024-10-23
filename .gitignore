@@ -2,4 +2,4 @@
 .git
 *
 !task*.py
-!numpy*
+!*.ipynb
