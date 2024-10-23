@@ -4,4 +4,3 @@
 test.ipynb
 !task*.py
 !numpy*.ipynb
-!helpers/**
