@@ -7,3 +7,4 @@ for letter in red_letters:
     if letter in text_:
         count = text_.count(letter)
         print(f'Количество букв {letter} - {count}')
+
