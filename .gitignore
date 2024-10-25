@@ -3,5 +3,5 @@
 *
 test.ipynb
 !task*.py
-!/Numpy-Pandas-Times_Series/2.Numpy.ipynb
+!Numpy-Pandas-Times_Series/2.Numpy.ipynb
 !helpers
