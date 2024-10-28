@@ -4,4 +4,5 @@
 test.ipynb
 !task*.py
 !2.Numpy.ipynb
+!3.Pandas.ipynb
 !helpers
