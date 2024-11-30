@@ -5,3 +5,4 @@ test.ipynb
 !task*.py
 3.Pandas.ipynb
 !helpers
+!loger.conf
