@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>My CV</title>
+    <style>
+        body {
+            font-family: "sans-serif", Helvetica, Arial, sans-serif;
+            background: #f3f5f7;
+            color: #222;
+        }
+
+        .item {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .info {
+            width: 600px;
+        }
+
+        .item:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container" id="container">
+    <h1>Resume</h1>
+
+    <div class="info">
+        {% for user in user %}
+        <div class="item">
+            <div>Фамилия Имя:</div>
+            <div>{{ user.f_name }} {{ user.l_name }}</div>
+        </div>
+
+        <div class="item">
+            <div>Email:</div>
+            <div>{{ user.email }}</div>
+        </div>
+
+        <div class="item">
+            <div>Возраст:</div>
+            <div>{{ user.age }}</div>
+        </div>
+
+        <div class="item">
+            <div>Последнее место работы:</div>
+            <div>{{ user.last_work }}</div>
+        </div>
+
+        <div class="item">
+            <div>Hard skills:</div>
+            <div>{{ user.hard_skills }}</div>
+        </div>
+
+        <div class="item">
+            <div>Soft Skills:</div>
+            <div>{{ user.soft_skills }}</div>
+        </div>
+
+        <div class="item">
+            <div>Зарплатное ожидание:</div>
+            <div>{{ user.salary_expectations }}</div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+</body>
+</html>
