@@ -7,5 +7,6 @@ test.ipynb
 !helpers
 !loger.conf
 !task31
+!templates
 !app.py
 !cv.html
