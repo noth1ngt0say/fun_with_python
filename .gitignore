@@ -6,6 +6,7 @@ test.ipynb
 3.Pandas.ipynb
 !helpers
 !loger.conf
-!task31/*
+!task31
+!templates
 !app.py
 !cv.html
